@@ -67,7 +67,7 @@ function App() {
   };
 
   const submitCreateCheckoutDetails = async () => {
-    const response = await fetch("http://localhost:4500/api/paper/checkout",
+    const response = await fetch("https://paper-xyz-integration1.vercel.app/api/paper/checkout",
     {
       method: "POST",
       headers: {
